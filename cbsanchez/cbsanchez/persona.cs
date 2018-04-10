@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace cbsanchez
 {
-    class Persona : Cliente
+     class Persona : Cliente
     {
         String tipolicencia, apellido;
         public Persona(String nombre, String miapellido, String rut, String mitipolicencia, Vehiculo vehiculo1): base(nombre, rut)
@@ -14,13 +14,30 @@ namespace cbsanchez
             tipolicencia = mitipolicencia;
             apellido = miapellido;
         }
+       
         public bool VerificarLicencia(Vehiculo vehiculo1)
         {
             if (tipolicencia == vehiculo1.Gettipo())
             {
-                return false;
+                if (vehiculo1.Gettipo() == "bus liviano")
+                {
+                    return false;
+                }
+                if (vehiculo1.Gettipo() == "bus normal")
+                {
+                    return false;
+                }
+                if (vehiculo1.Gettipo() == "bus de lujo")
+                {
+                    return false;
+                }
+                return true;
             }
-            return true;
+            return false;
+        }
+        public String Gettipolicencia()
+        {
+            return tipolicencia;
         }
     }
 }

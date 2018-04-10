@@ -46,6 +46,8 @@
     <Compile Include="Arriendo.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="EOI.cs" />
+    <Compile Include="Institucion.cs" />
+    <Compile Include="OI.cs" />
     <Compile Include="persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

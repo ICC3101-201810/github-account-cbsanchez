@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace cbsanchez
 {
-     class Empresa : Cliente
+     class Organizacion : Cliente
     {
-        String autorizacion, permiso_mpesada, permiso_bus; // permiso contiene valores de tipo si y no depensiendo de si tiene el permiso o no
-        public Empresa(String nombre, String rut, String miautorizacion, String mipermiso, String mipermisob, Vehiculo vehiculo2) : base(nombre, rut)
+        String autorizacion, permiso_bus;
+        public Organizacion(String nombre, String rut, String mipermisob, String miautorizacion, Vehiculo vehiculo2) : base(nombre, rut)
         {
             autorizacion = miautorizacion;
-            permiso_mpesada = mipermiso;
             permiso_bus = mipermisob;
         }
         public bool VerificarVehiculo(Vehiculo vehiculo2)
@@ -21,10 +20,6 @@ namespace cbsanchez
             {
                 if (vehiculo2.Gettipo() == "maquinaria pesada")
                 {
-                    if (permiso_mpesada == "si")
-                    {
-                        return true;
-                    }
                     return false;
                 }
                 if (vehiculo2.Gettipo() == "bus liviano")
@@ -55,5 +50,8 @@ namespace cbsanchez
             }
             return false;
         }
+
+
+
     }
 }

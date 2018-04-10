@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace cbsanchez
 {
-    class Vehiculo 
+     class Vehiculo 
     {
-        String tipo, patente;
+        String tipo, patente; // los buses tienen sus tipos predeterminados, su tipo es bus liviano, bus normal, bus de lujo
         public Vehiculo(String mitipo, String mipatente) 
         {
             tipo = mitipo;

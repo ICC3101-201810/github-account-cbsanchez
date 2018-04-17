@@ -9,10 +9,12 @@ namespace cbsanchez
      class Vehiculo 
     {
         String tipo, patente; // los buses tienen sus tipos predeterminados, su tipo es bus liviano, bus normal, bus de lujo
-        public Vehiculo(String mitipo, String mipatente) 
+        int precio;
+        public Vehiculo(String mitipo, String mipatente, int miprecio) 
         {
             tipo = mitipo;
             patente = mipatente;
+            precio = miprecio;
         }
         public String Gettipo()
         {

@@ -4,3 +4,10 @@
 /Users/catalina/Desktop/github-account-cbsanchez/cbsanchez/cbsanchez/bin/Debug/cbsanchez.pdb
 /Users/catalina/Desktop/github-account-cbsanchez/cbsanchez/cbsanchez/obj/Debug/cbsanchez.exe
 /Users/catalina/Desktop/github-account-cbsanchez/cbsanchez/cbsanchez/obj/Debug/cbsanchez.pdb
+C:\Users\ING\Desktop\github-account-cbsanchez\cbsanchez\cbsanchez\bin\Debug\cbsanchez.exe.config
+C:\Users\ING\Desktop\github-account-cbsanchez\cbsanchez\cbsanchez\bin\Debug\cbsanchez.exe
+C:\Users\ING\Desktop\github-account-cbsanchez\cbsanchez\cbsanchez\bin\Debug\cbsanchez.pdb
+C:\Users\ING\Desktop\github-account-cbsanchez\cbsanchez\cbsanchez\obj\Debug\cbsanchez.csprojResolveAssemblyReference.cache
+C:\Users\ING\Desktop\github-account-cbsanchez\cbsanchez\cbsanchez\obj\Debug\cbsanchez.csproj.CoreCompileInputs.cache
+C:\Users\ING\Desktop\github-account-cbsanchez\cbsanchez\cbsanchez\obj\Debug\cbsanchez.exe
+C:\Users\ING\Desktop\github-account-cbsanchez\cbsanchez\cbsanchez\obj\Debug\cbsanchez.pdb

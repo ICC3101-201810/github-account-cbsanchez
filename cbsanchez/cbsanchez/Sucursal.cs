@@ -41,6 +41,11 @@ namespace cbsanchez
         {
             return nombre;
         }
+        public Arriendo Getarriendo(Vehiculo vehiculo)
+        {
+            Arriendo arriendo = arriendos.Where(ar => ar.GetVehiculo() == vehiculo).ToList().First();
+            return arriendo;
+        }
     
 
     }

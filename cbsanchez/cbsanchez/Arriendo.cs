@@ -8,14 +8,18 @@ namespace cbsanchez
 {
      class Arriendo
     {
-        Accesorio[] accesorios;
+        List<Accesorio> accesorios = new List<Accesorio>();
         DateTime fecha_inicio, fecha_termino;
         int precio;
-        public Arriendo(Cliente cliente1, Sucursal sucursal, Vehiculo vehiculo1, Accesorio[] accesorios, DateTime mifecha_inicio, DateTime mifecha_termino, int miprecio )
+        public Arriendo(Cliente cliente1, Vehiculo vehiculo1, DateTime mifecha_inicio, DateTime mifecha_termino, int miprecio )
         {
             fecha_inicio = mifecha_inicio;
             fecha_termino = mifecha_termino;
             precio = miprecio;
+        }
+        public void AgregarAccesorio(Accesorio accesorio)
+        {
+            accesorios.Add(accesorio);
         }
 
 

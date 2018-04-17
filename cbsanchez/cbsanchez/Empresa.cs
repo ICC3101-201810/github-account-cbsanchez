@@ -9,7 +9,7 @@ namespace cbsanchez
      class Empresa : Cliente
     {
         String autorizacion, permiso_mpesada, permiso_bus; // permiso contiene valores de tipo si y no depensiendo de si tiene el permiso o no
-        public Empresa(String nombre, String rut, String miautorizacion, String mipermiso, String mipermisob, Vehiculo vehiculo2) : base(nombre, rut)
+        public Empresa(String nombre, String rut, String miautorizacion, String mipermiso, String mipermisob) : base(nombre, rut)
         {
             autorizacion = miautorizacion;
             permiso_mpesada = mipermiso;
@@ -54,6 +54,34 @@ namespace cbsanchez
                 return true;
             }
             return false;
+        }
+        public bool PedirAutorizacionMaquinaria(Empresa empresa1)
+        {
+            Random rnd = new Random();
+            int numero = rnd.Next(0, 100);
+            if (numero >= 63) 
+            {
+                return false;
+            }
+            else 
+            {
+                empresa1.permiso_mpesada = "si";
+                return true;
+            }
+        }
+        public bool PedirAutorizacionBus(Empresa empresa)
+        {
+            Random rnd = new Random();
+            int numero = rnd.Next(0, 100);
+            if (numero >= 80)
+            {
+                return false;
+            }
+            else
+            {
+                empresa.permiso_bus = "si";
+                return true;
+            }
         }
     }
 }

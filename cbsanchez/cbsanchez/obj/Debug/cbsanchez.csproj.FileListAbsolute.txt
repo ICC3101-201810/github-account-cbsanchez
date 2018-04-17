@@ -1,0 +1,6 @@
+/Users/catalina/Desktop/github-account-cbsanchez/cbsanchez/cbsanchez/obj/Debug/cbsanchez.csproj.CoreCompileInputs.cache
+/Users/catalina/Desktop/github-account-cbsanchez/cbsanchez/cbsanchez/bin/Debug/cbsanchez.exe.config
+/Users/catalina/Desktop/github-account-cbsanchez/cbsanchez/cbsanchez/bin/Debug/cbsanchez.exe
+/Users/catalina/Desktop/github-account-cbsanchez/cbsanchez/cbsanchez/bin/Debug/cbsanchez.pdb
+/Users/catalina/Desktop/github-account-cbsanchez/cbsanchez/cbsanchez/obj/Debug/cbsanchez.exe
+/Users/catalina/Desktop/github-account-cbsanchez/cbsanchez/cbsanchez/obj/Debug/cbsanchez.pdb

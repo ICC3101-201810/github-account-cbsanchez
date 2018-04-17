@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{2D106F7B-A1E3-4979-9D87-3859F20A7E2E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cbsanchez/Program.cs">
+    <Files>
+      <File FileName="cbsanchez/Accesorio.cs" Line="11" Column="66" />
+      <File FileName="cbsanchez/Arriendo.cs" Line="13" Column="20" />
+      <File FileName="cbsanchez/Cliente.cs" Line="18" Column="10" />
+      <File FileName="cbsanchez/Empresa.cs" Line="12" Column="109" />
+      <File FileName="cbsanchez/Organizacion.cs" Line="11" Column="42" />
+      <File FileName="cbsanchez/Institucion.cs" Line="53" Column="2" />
+      <File FileName="cbsanchez/persona.cs" Line="37" Column="10" />
+      <File FileName="cbsanchez/Program.cs" Line="223" Column="18" />
+      <File FileName="cbsanchez/Sucursal.cs" Line="56" Column="5" />
+      <File FileName="cbsanchez/Vehiculo.cs" Line="18" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.cbsanchez PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

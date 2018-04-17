@@ -18,5 +18,9 @@ namespace cbsanchez
         {
             return tipo;
         }
+        public String Getpatente()
+        {
+            return patente;
+        }
     }
 }

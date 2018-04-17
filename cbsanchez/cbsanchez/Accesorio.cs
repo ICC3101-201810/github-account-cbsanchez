@@ -8,13 +8,16 @@ namespace cbsanchez
 {
     class Accesorio
     {
-        String tipo;
-        int precio, codigo;
-        public Accesorio(String mitipo, int miprecio, int micodigo)
+        String tipo; // los accesorios se identifican con un tipo
+        int precio;
+        public Accesorio(String mitipo, int miprecio)
         {
             tipo =  mitipo;
             precio = miprecio;
-            codigo = micodigo;
+        }
+        public String Gettipo()
+        {
+            return tipo;
         }
    
       

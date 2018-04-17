@@ -9,7 +9,7 @@ namespace cbsanchez
      class Organizacion : Cliente
     {
         String autorizacion, permiso_bus;
-        public Organizacion(String nombre, String rut, String mipermisob, String miautorizacion, Vehiculo vehiculo2) : base(nombre, rut)
+        public Organizacion(String nombre, String rut, String mipermisob, String miautorizacion) : base(nombre, rut)
         {
             autorizacion = miautorizacion;
             permiso_bus = mipermisob;
@@ -50,8 +50,19 @@ namespace cbsanchez
             }
             return false;
         }
-
-
-
+        public bool PedirAutorizacionBus(Organizacion organizacion)
+        {
+            Random rnd = new Random();
+            int numero = rnd.Next(0, 100);
+            if (numero >= 35)
+            {
+                return false;
+            }
+            else
+            {
+                organizacion.permiso_bus = "si";
+                return true;
+            }
+        }
     }
 }

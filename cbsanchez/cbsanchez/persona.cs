@@ -9,7 +9,7 @@ namespace cbsanchez
      class Persona : Cliente
     {
         String tipolicencia, apellido;
-        public Persona(String nombre, String miapellido, String rut, String mitipolicencia, Vehiculo vehiculo1): base(nombre, rut)
+        public Persona(String nombre, String miapellido, String rut, String mitipolicencia): base(nombre, rut)
         {
             tipolicencia = mitipolicencia;
             apellido = miapellido;
